@@ -23,7 +23,7 @@ Climb started in Counter-Strike 1.1. A mapper named Kreedz decided to make a fun
 ### Strafe
 
 Strafe is the most common focus for maps. Strafing can come in the form of Long Jumps and taking indirect lines.  
-**Airstrafing** works in the same way as in the Bhop and Surf game modes; using a strafe key (A or D) while guiding the mouse off in that direction causes the player to receive more speed.  
+**Airstrafing** was intended for slight course correction by giving the player a slight push when trying to move perpendicular to their current jumping direction. This “push” gives the player more speed and can be continuously received as long as the player tries to move perpendicular to the current direction, they are moving in. The advice *“when jumping let go of W and use a strafe key (A or D) while guiding the mouse off in that direction”* works because assuming you are looking in the direction your velocity is A or D will be perpendicular. The tricky part *“slowly guiding the mouse off in that direction”* is trying to sync where you looking with the direction of your velocity since as the player is “pushed” so too is the direction of their velocity.    
 A **Prestrafe** is a technique that has been patched out of Counter-Strike since CSGO but has been re-added for the Climb game mode. While on the ground, players hold **both** the W and strafe keys and guide the mouse into the direction they are moving, right for W+D and left for W+A. Performing a Prestrafe correctly will let you gain speed on the ground. Gaining speed before the jump and while in the air lets you travel further. This is called a **Long Jump**. 
 Note that since Airstrafing causes the player to deviate from their intended destination (assuming it is straight in front of them), Long Jumps typically incorporates multiple left and right Airstrafes into a jump which counteract each other and keep the player close to a straight line. These multiple strafes in opposite directions gives the appearance of a "flicky" or "jittery" Airstrafe but a lot of practice goes into syncing the A and D keys with quick but smooth mouse movements.
 {{< hint info >}}
@@ -99,10 +99,13 @@ Really it is only the top of the ladder (or wherever you decide the takeoff poin
 Bhopping starting in a crouch position. If a jump is started from a standing position, crouching in the air will raise your collision box up 18 units (you tuck in your legs). If you start in a crouched position and jump you will not be able to get this extra 18 units of height.  
 This is great when trying to avoid map hazards like low ceilings, since you stay low to the ground while keeping a small collision box if you choose to stay crouched.  ![crouch Bhop](/images/climb/Crouch_Bhop.png)
 {{< hint info >}}
-Jumping then crouching still keeps your head lower than a jump without any crouching despite getting more height
+Jumping then crouching still keeps your head lower than a jump without any crouching despite getting more height 
 {{< /hint >}}
 {{< hint warning >}}
 Crouching will limit your ability to turn in the air and thus gain speed as well
+{{< /hint >}}
+{{< hint danger >}}
+In KZT, an imperfect Crouch Bhop, even 1 tick off, will instantly reduce your speed to crouch walking speed (85 units) in addtion to friction, making it a pretty risky move
 {{< /hint >}}
 
 ### Drop Bhop
@@ -195,7 +198,3 @@ Outcome 2: the player immediately Prestrafes upon landing. Friction slows “nor
 ### 66 unit Crouch Jumps [KZT only]
 In KZT, crouching right before a jump and right after are not equal. Starting a crouch one tick or more before the jump gives more height 66 units vs 64.84 units.  
 The trade-off is that the player loses speed as they transition into a crouch. The longer the player holds crouch the more speed is lost. These are best used when height is a priority over distance, since with imperfect execution more slow-down will occur than necessary, shortening the length of the jump.
-
-
-
-
