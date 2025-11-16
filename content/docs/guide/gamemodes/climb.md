@@ -133,11 +133,17 @@ The faster you are falling, the shorter the grace period is
 Combines a Standup with a Bhop. The result is you gain extra airtime and distance with your crouch, but your next jump is in the standing position meaning you can “tuck in your legs” again and get the extra 18 units of height. This technique is especially useful in 1.6 Climb since you will also bleed slightly more time off stamina by staying in the air longer.   
 Standup Bhops are not a replacement for regular Bhops or Crouch Bhops, since you may prefer to land sooner and jump sooner or need to avoid map hazards.  
 
-### Double Duck [1.6 Climb only]
-In 1.6 Climb, while on the ground pressing crouch and releasing it before you are fully crouched will cause the game to uncrouch you prematurely, the result is that you pop 18 units off the ground (very small compared to a jump) you can improve this height by crouching again in the air resulting in being 36 units off the ground (better but still small compared to a jump).  Binding crouch to the scroll wheel makes these rapid crouches easier. 
-you can use Double Ducks to climb small humps without wasting time overshooting with a jump, but in addition to this they have one big advantage over jumps:
+### Doubleduck [1.6 Climb only]
+In 1.6 Climb, while on the ground pressing crouch and releasing it before you are fully crouched will cause the game to uncrouch you prematurely, the result is that you pop 18 units off the ground. You can improve this height by crouching again in the air resulting in being 36 units off the ground (for reference a crouch jump gives you 63 units of height).  
+you can use Double Ducks to climb small humps and cross small gaps that a jump would overshoot. In addition to this they have one big advantage over jumps:
 **crouching is not considered a jump, so the jump-land penalty does not activate.**  
-This means you can gain speed with air strafing without worrying about slowing down upon landing. This is used in Count Jumps.  If you wish to perform a Standup version that will give the most airtime it is better to have another bind for crouch on a keyboard so that it can be held.
+This means you can gain speed with air strafing without worrying about slowing down upon landing. This is used in Count Jumps.
+{{< hint info >}}
+This technique is actually called ScrollDuck, crouching again in the air is called Doubleduck. Since the ladder has a catchier name and abbreviation it is often used to refer to both
+{{< /hint >}}
+{{< hint info >}}
+Since we want to spend as little time crouching before uncrouching, binding crouch to the scroll wheel makes the rapid crouch-uncrouch easier (keep another crouch bind you can hold like ctrl so you can do standup bhops). When climbing up a small hump use 2 scrolls without spaming it. For most other use cases like crossing small gaps or setting up a countjump, scroll once. If you want to duck again for more height/do a stand-up version, hold your keyboard bind after the scroll.
+{{< /hint >}}
  
 
 ### Duck Roll [1.6 Climb only]
