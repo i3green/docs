@@ -30,7 +30,7 @@ Note that since Airstrafing causes the player to deviate from their intended des
 If you're familiar with quake or defrag, the Prestrafe and Long Jump are analgous to the Circle strafe and Circle Jump respectively 
 {{< /hint >}}
 {{< hint warning >}}
-Max running speed is 250. Max speed attainable with Prestrafe is about 275. Airstrafing has better acceleration and a much larger attainble speed when compared to Prestrafe.
+Max running speed is 250. Max speed attainable with Prestrafe is about 276. Airstrafing has better acceleration and a much larger attainble speed when compared to Prestrafe.
 {{< /hint >}}
 Sometimes you may not be able to take a direct line due to an obstruction.  
 The two most common forms of this are rounding a corner (often without being able to see the next platform) and 2 platforms separated by a thin wall.
@@ -204,3 +204,6 @@ Outcome 2: the player immediately Prestrafes upon landing. Friction slows “nor
 ### 66 unit Crouch Jumps [KZT only]
 In KZT, crouching right before a jump and right after are not equal. Starting a crouch one tick or more before the jump gives more height 66 units vs 64.84 units.  
 The trade-off is that the player loses speed as they transition into a crouch. The longer the player holds crouch the more speed is lost. These are best used when height is a priority over distance, since with imperfect execution more slow-down will occur than necessary, shortening the length of the jump.
+
+### Bunnyhop [KZT version]
+KZT implements bhopping in a unique way. In KZT you either do a perfect bunnyhop and retain all of your speed (up to a max of 380) or an imperfect bunnyhop which brings you back down to base running speed (or crouching speed if doing a crouch bhop) However, due to Prekeep, you retain prestrafe speed if you had any even without intentionally doing a Prekeep technique. The amount of speed retained directly relates to how imperfect the bhop was (how many frames you were on the ground before jumping) this gives the apperance of imperect bhops being slowed by friction but there is 1 important diffrence: no matter how fast you are going an imperfect bhop that is 1 frame off sets you back to 276 with max prestrafe and 250 without any Prestrafe.
